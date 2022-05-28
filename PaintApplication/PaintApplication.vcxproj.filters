@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{54be8bb9-848f-4ccd-ad50-af7b5ea2444c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DialogHelper">
+      <UniqueIdentifier>{7cc88438-bd05-424a-95ab-bb0818d93014}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoCmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RedoCmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Json\json11.hpp">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveCmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellHelpers.hpp">
+      <Filter>DialogHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogBoxes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PaintApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stroke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoCmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RedoCmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Json\json11.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveCmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogBoxes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PaintApplication.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PaintApplication.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
